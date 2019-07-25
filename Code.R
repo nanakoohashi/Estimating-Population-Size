@@ -6,3 +6,6 @@ library("reshape2", lib.loc="~/R/win-library/3.6")
 library("tidyverse", lib.loc="~/R/win-library/3.6")
 library("ggpmisc", lib.loc="~/R/win-library/3.6")
 library("broom", lib.loc="~/R/win-library/3.6")
+
+
+population.csv <- read.csv("C:/Users/Nanako/Desktop/R/nst-est2016-01.csv", header = TRUE)
