@@ -13,3 +13,4 @@ str(population.csv)
 View(population.csv)
 
 # Assign the .csv file to a variable
+population <- population.csv
