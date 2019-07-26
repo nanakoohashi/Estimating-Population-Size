@@ -11,3 +11,5 @@ library("broom", lib.loc="~/R/win-library/3.6")
 population.csv <- read.csv("C:/Users/Nanako/Desktop/R/nst-est2016-01.csv", header = TRUE)
 str(population.csv)
 View(population.csv)
+
+# Assign the .csv file to a variable
