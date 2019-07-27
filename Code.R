@@ -27,3 +27,5 @@ population <- subset(population, select = -c(Census.2010, Estimates.Base.2010))
 
 # Remove first letter of each column name
 names(population) <- substring(names(population),2,5)
+
+# Rename first column
