@@ -29,3 +29,4 @@ population <- subset(population, select = -c(Census.2010, Estimates.Base.2010))
 names(population) <- substring(names(population),2,5)
 
 # Rename first column
+colnames(population)[1] <- "State"
