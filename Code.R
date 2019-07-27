@@ -18,3 +18,5 @@ population <- population.csv
 # Create a dataframe
 population <- tbl_df(population)
 as.data.frame(population)
+
+# Select Colorado row
