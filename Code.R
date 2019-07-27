@@ -23,3 +23,4 @@ as.data.frame(population)
 population <- subset(population, (Geographic.Area == 'Colorado'))
 
 # Drop Census.2010 and Estimate.Base.2010 columns
+population <- subset(population, select = -c(Census.2010, Estimates.Base.2010))
