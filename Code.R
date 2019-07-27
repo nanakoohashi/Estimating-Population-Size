@@ -16,3 +16,5 @@ View(population.csv)
 population <- population.csv
 
 # Create a dataframe
+population <- tbl_df(population)
+as.data.frame(population)
