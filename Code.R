@@ -14,3 +14,5 @@ View(population.csv)
 
 # Assign the .csv file to a variable
 population <- population.csv
+
+# Create a dataframe
