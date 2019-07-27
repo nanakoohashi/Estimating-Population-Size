@@ -20,3 +20,6 @@ population <- tbl_df(population)
 as.data.frame(population)
 
 # Select Colorado row
+population <- subset(population, (Geographic.Area == 'Colorado'))
+
+# Drop Census.2010 and Estimate.Base.2010 columns
