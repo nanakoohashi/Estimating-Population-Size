@@ -30,3 +30,5 @@ names(population) <- substring(names(population),2,5)
 
 # Rename first column
 colnames(population)[1] <- "State"
+
+# Wide to long conversion
