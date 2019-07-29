@@ -41,3 +41,4 @@ population <- subset(population, select = -c(State))
 population$Year <- as.numeric(population$Year)
 
 # Linear model
+fit <- lm(Population ~ Year, population)
