@@ -35,3 +35,4 @@ colnames(population)[1] <- "State"
 population <- gather(data = population, key = Year, value = Population, -State)
 
 # Drop State column
+population <- subset(population, select = -c(State))
