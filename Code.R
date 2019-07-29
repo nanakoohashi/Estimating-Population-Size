@@ -32,3 +32,4 @@ names(population) <- substring(names(population),2,5)
 colnames(population)[1] <- "State"
 
 # Wide to long conversion
+population <- gather(data = population, key = Year, value = Population, -State)
