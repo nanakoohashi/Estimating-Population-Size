@@ -36,3 +36,5 @@ population <- gather(data = population, key = Year, value = Population, -State)
 
 # Drop State column
 population <- subset(population, select = -c(State))
+
+# Change Year from character vector to a YYYY date vector
