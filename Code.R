@@ -33,3 +33,5 @@ colnames(population)[1] <- "State"
 
 # Wide to long conversion
 population <- gather(data = population, key = Year, value = Population, -State)
+
+# Drop State column
