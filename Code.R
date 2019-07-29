@@ -38,3 +38,4 @@ population <- gather(data = population, key = Year, value = Population, -State)
 population <- subset(population, select = -c(State))
 
 # Change Year from character vector to a YYYY date vector
+population$Year <- as.numeric(population$Year)
