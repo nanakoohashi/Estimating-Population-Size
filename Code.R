@@ -47,3 +47,5 @@ fit <- lm(Population ~ Year, population)
 p <- ggplot(population, aes(x = Year, y = Population)) + 
   geom_point() + 
   labs(x = 'Year', y = 'Population', title = "Linear Regression for Population on Year for the State of Colorado") + 
+
+# Start y-axis at 0
