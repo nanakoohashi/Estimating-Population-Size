@@ -44,3 +44,6 @@ population$Year <- as.numeric(population$Year)
 fit <- lm(Population ~ Year, population)
 
 # Plot points and linear regression line
+p <- ggplot(population, aes(x = Year, y = Population)) + 
+  geom_point() + 
+  labs(x = 'Year', y = 'Population', title = "Linear Regression for Population on Year for the State of Colorado") + 
