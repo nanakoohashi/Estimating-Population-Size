@@ -42,3 +42,5 @@ population$Year <- as.numeric(population$Year)
 
 # Linear model
 fit <- lm(Population ~ Year, population)
+
+# Plot points and linear regression line
