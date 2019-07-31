@@ -53,3 +53,10 @@ p <- p + expand_limits(y = 0)
 p
 
 # Display linear regression equation and r-squared value on graph
+yintercept <- format(coef(fit)[1], scientific = FALSE)
+slope <- format(coef(fit)[2], scientific = FALSE)
+rsquared <- summary(fit)$r.squared
+eq <- substitute(italic(y) == a + b %.% italic(x)*","~~italic(r)^2~"="~r2, 
+   list(a = format(unname(yintercept), digits = 4),
+        b = format(unname(slope), digits = 4),
+        r2 = rsquared))
