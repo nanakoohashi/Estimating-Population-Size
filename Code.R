@@ -49,3 +49,5 @@ p <- ggplot(population, aes(x = Year, y = Population)) +
   labs(x = 'Year', y = 'Population', title = "Linear Regression for Population on Year for the State of Colorado") + 
 
 # Start y-axis at 0
+p <- p + expand_limits(y = 0)
+p
