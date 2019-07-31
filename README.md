@@ -2,3 +2,4 @@
 
 ## Getting Started
 ### Dependencies
+Windows 10
