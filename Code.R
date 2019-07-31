@@ -51,3 +51,5 @@ p <- ggplot(population, aes(x = Year, y = Population)) +
 # Start y-axis at 0
 p <- p + expand_limits(y = 0)
 p
+
+# Display linear regression equation and r-squared value on graph
