@@ -60,3 +60,7 @@ eq <- substitute(italic(y) == a + b %.% italic(x)*","~~italic(r)^2~"="~r2,
    list(a = format(unname(yintercept), digits = 4),
         b = format(unname(slope), digits = 4),
         r2 = rsquared))
+text <- as.character(as.expression(eq));
+xx <- 2012
+yy <- 2000000
+p + geom_text(data = population, aes(x = xx, y = yy), label = text, parse = TRUE)
