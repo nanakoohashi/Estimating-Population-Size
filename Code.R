@@ -64,3 +64,5 @@ text <- as.character(as.expression(eq));
 xx <- 2012
 yy <- 2000000
 p + geom_text(data = population, aes(x = xx, y = yy), label = text, parse = TRUE)
+
+#Tabulate linear model:
