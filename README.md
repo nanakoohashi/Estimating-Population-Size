@@ -5,3 +5,10 @@
 Windows 10
 
 ### Libraries
+- ggplot2
+- dplyr
+- tidyr
+- reshape2
+- tidyverse
+- ggpmisc
+- broom
