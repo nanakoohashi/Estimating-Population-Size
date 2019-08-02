@@ -12,3 +12,5 @@ Windows 10
 - tidyverse
 - ggpmisc
 - broom
+
+### Steps
