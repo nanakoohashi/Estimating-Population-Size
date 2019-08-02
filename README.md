@@ -14,3 +14,7 @@ Windows 10
 - broom
 
 ### Steps
+1. Import Data.
+2. Clean Data.
+3. Create linear regression analysis.
+
