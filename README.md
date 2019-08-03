@@ -21,3 +21,4 @@ Windows 10
 3. Create linear regression analysis.
 
 ## Main Findings
+Using the linear regression equation, I estimated that the population of Colorado in the year 2024 will be 6,181,933.
