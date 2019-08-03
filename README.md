@@ -20,3 +20,4 @@ Windows 10
 2. Clean Data.
 3. Create linear regression analysis.
 
+## Main Findings
