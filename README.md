@@ -24,3 +24,6 @@ Windows 10
 Using the linear regression equation, I estimated that the population of Colorado in the year 2024 will be 6,181,933.
 
 ## References
+    • RDocumentation (n.d.). Excel Regression Analysis Output Explained.  Retrieved from https://www.rdocumentation.org/packages/dplyr/versions/0.5.0/topics/tbl_df 
+    • Ramnath (2011, September 26). Adding Regression Line Equation and R2 on graph [Online Forum Comment]. Retrieved from https://stackoverflow.com/questions/7549694/adding-regression-line-equation-and-r2-on-graph 
+    • U.S. Census Bureau, Population Division (2016). Table 1. Annual Estimates of the Resident Population for the United States, Regions, States, and Puerto Rico: April 1, 2010 to July 1, 2016 (NST-EST2016-01)
