@@ -1,5 +1,6 @@
 # Estimating Population Size
 ## Summary
+Using the U.S. Census Bureau's data on annual estimates of the population size of each U.S. state and region. In this project, I used R to create a linear regression model of the population dynamics of the state of Colorado and predicted the size of its population.
 
 ## Getting Started
 ### Dependencies
