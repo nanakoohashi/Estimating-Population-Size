@@ -4,7 +4,8 @@ Using the U.S. Census Bureau's data on annual estimates of the population size o
 
 ## Getting Started
 ### Dependencies
-Windows 10
+- Windows 10
+- R
 
 ### Libraries
 - ggplot2
